@@ -1,0 +1,68 @@
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.screenshots {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.screenshot {
+    padding: 2px;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px #b6b6b6;
+}
+
+.screenshot__image {
+    height: 360px;
+    overflow-y: scroll;
+}
+.screenshot__image img {
+    width: 100%;
+}
+
+.screenshot__subtitle {
+    font-size: 12px;
+    color: dimgray;
+    text-align: center;
+    padding: 5px;
+}
+
+.picker{
+    margin-right: 5px;
+}
+.picker--active {
+    background-color: gold;
+    border-color: darkorange;
+    color: black;
+}
+.picker__date {
+    
+}
+.picker__time {
+    font-size: 10px;
+    
+}
+.picker__count {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.screenview {
+    border: 1px solid #808080;
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px #b6b6b6;
+}
